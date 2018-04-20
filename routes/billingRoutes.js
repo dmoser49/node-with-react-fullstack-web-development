@@ -15,5 +15,6 @@ module.exports = app => {
     const user = await req.user.save();
 
     res.send(user);
+    //console.log();
   });
 };
